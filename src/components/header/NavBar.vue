@@ -18,8 +18,10 @@ onMounted(async () => {
 
 const navArr = ref(null);
 
+
+
 function getNavInfos() {
-  fetch("src/utils/data.json")
+  fetch(`utils/data.json`)
     .then(function (response) {
       return response.json();
     })
