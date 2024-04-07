@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+# Nuetec作業
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Requirements from Neutec Limited 
 
-## Recommended IDE Setup
+## 側邊開合選單
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- 將 `data.js` 中的資料取得並放入利用 `ul` 及 `li` 之 `components`，組成 loop nested 表單
+- 用 `Switch` 來切換縮合表單
+- 在展開表單中，用 `mitt` 更新點擊到的子項 `key` 來判斷是否符合 `highlight` 條件
+
+## 九宮格動畫
+
+- 抓取螢幕寬度來定位四個角落的球
+- 用螢幕寬度來設定動畫
+- 用 `Switch` 來切換球的運動路徑
